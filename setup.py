@@ -11,14 +11,14 @@ with open(path.join(this_directory, 'README.md'), 'r') as f:
     long_description = f.read()
 
 setuptools.setup(
-    name='ElasticMock',
+    name='hearsay-elasticmock',
     version=__version__,
-    author='Marcos Cardoso',
-    author_email='vrcmarcos@gmail.com',
+    author='Will Brown',
+    author_email='will.j.brown.2@gmail.com',
     description='Python Elasticsearch Mock for test purposes',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/vrcmarcos/elasticmock',
+    url='https://github.com/hearsaycorp/elasticmock',
     packages=setuptools.find_packages(exclude=('tests')),
     install_requires=[
         'elasticsearch',
